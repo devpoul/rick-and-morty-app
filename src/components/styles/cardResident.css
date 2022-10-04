@@ -1,0 +1,84 @@
+/* El estilo de la tarjeta. */
+.card {
+  background-color: var(--PrincipalColorBg);
+  color: var(--PrincipalColorLetter);
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 15px 15px 15px -2px rgba(0, 0, 0, 0.72);
+}
+
+/* Posición del estado del personaje. */
+.cardHeader {
+  position: relative;
+}
+
+/* El estilo del estado del contenedor de la tarjeta. */
+.cardContainerStatus {
+  background-color: var(--PrincipalColorBg);
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100px;
+  padding: 4px;
+  border-radius: 0 10px 10px 0px;
+  font-size: 14px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Una clase que se utiliza para crear un círculo. */
+.cardCircleStatus {
+  width: 12px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+/* Una clase de CSS que se usa para cambiar el color del círculo que está en la tarjeta. */
+.Dead {
+  background-color: red;
+}
+
+.unknown {
+  background-color: #aaa;
+}
+
+.Alive {
+  background-color: green;
+}
+
+/* Agregar relleno al cuerpo de la tarjeta. */
+.cardBody {
+  padding: 20px;
+}
+
+/* El estilo del nombre del personaje. */
+.cardName {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+/* Creando una cuadrícula con un espacio de 12px. */
+.cardList {
+  display: grid;
+  gap: 12px;
+}
+
+/* El estilo de la lista de la tarjeta. */
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-weight: 500;
+  color: var(--SecondaryColorLetter);
+}
+
+/* Una clase que se usa para cambiar el color del texto que está en la tarjeta. */
+.cardSpan {
+  color: var(--ColorSpanSecondary);
+  font-weight: 600;
+  transform: translateX(10px);
+}

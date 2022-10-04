@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Definición de los colores que se utilizarán en el proyecto. */
+:root {
+  --PrincipalColorBg: rgba(6, 35, 40, 0.85);
+  --PrincipalColorLetter: #fbfbfb;
+  --SecondaryColorLetter: #c2c2c2;
+  --ColorSpanPrimary: #0a8643;
+  --ColorSpanSecondary: #93c64b;
+}
+
+/* Un reinicio de CSS. Es una forma de asegurarse de que todos los navegadores utilicen los mismos
+estilos predeterminados. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Elimina las viñetas de la lista. */
+ul {
+  list-style: none;
+}
+
+/* Haciendo de la imagen un elemento de bloque. */
+img {
+  display: block;
+}
+
+/* Eliminando el borde del botón. */
+button {
+  border: none;
+}
+
+/* Eliminando el contorno de la entrada. */
+input {
+  outline: none;
+}

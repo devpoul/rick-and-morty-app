@@ -1,0 +1,13 @@
+/* El CSS para la clase errorContainer. */
+.errorContainer {
+  background-color: var(--PrincipalColorBg);
+  text-align: center;
+  padding: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  color: var(--SecondaryColorLetter);
+}
